@@ -408,6 +408,9 @@ extern struct cpufreq_governor cpufreq_gov_hotplug;
 #elif defined(CONFIG_CPU_FREQ_DEFAULT_GOV_SMARTASSH3)
 extern struct cpufreq_governor cpufreq_gov_smartassh3;
 #define CPUFREQ_DEFAULT_GOVERNOR	(&cpufreq_gov_smartassh3)
+#elif defined(CONFIG_CPU_FREQ_DEFAULT_GOV_WHEATLEY)
+extern struct cpufreq_governor cpufreq_gov_wheatley;
+#define CPUFREQ_DEFAULT_GOVERNOR  (&cpufreq_gov_wheatley)
 #endif
 
 
